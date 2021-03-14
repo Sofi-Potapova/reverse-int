@@ -7,7 +7,7 @@ if(n>=0){
 }
 else{
   let new_string=(-1)*n;
-    new_string = String(n);
+    new_string = String(new_string);
     new_string=new_string.split("").reverse().join("");
     new_string = Number(new_string);
   return (-1)*new_string;
